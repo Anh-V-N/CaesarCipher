@@ -15,5 +15,5 @@ for i in range(1, 26):
             plaintext += [chr(plaintext_value)]
         else:
             plaintext += [char]
-    plaintext = ''.join(char for char in plaintext)
+    plaintext = ''.join(plaintext)
     print(plaintext)

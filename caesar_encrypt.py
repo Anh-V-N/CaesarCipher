@@ -27,5 +27,5 @@ for char in plain_text:
     else:
         cipher_text += [char]
 
-cipher_text = ''.join(char for char in cipher_text)
+cipher_text = ''.join(cipher_text)
 print('Encrypted message: ', cipher_text)
